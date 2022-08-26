@@ -1,10 +1,8 @@
 body {
   font-family: sans-serif;
   font-size:100%;
-  background-color: grey;
-  background-image: url("devaarnecool.jpg");
-  background-repeat: repeat-y;
-  background-position: center;
+  background-image:none;
+  background-color:grey;
   display: flex; 
   flex-direction: column;
 }
@@ -76,7 +74,13 @@ h2 {
   color: orange;
 }
 
-.slogan {
-  background-image: url("devsilhouette.jpg");
+.background-image {
+  background-image: url("C:\Users\27786\Documents\GitHub\Resume1\images\devsilhouette.jpg");
+  background-size: contain;
+  width: 200px;
+  height: 200px ;
+  background-repeat: repeat-y;
+  background-position: center;
+
 }
 
